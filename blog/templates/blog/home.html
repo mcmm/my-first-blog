@@ -1,0 +1,69 @@
+{% extends 'blog/base.html' %}
+
+        {% block content %}
+            
+<!-- Page Header -->
+                <div class="content bg-gray-lighter">
+                    <h1 class="page-heading push">
+                        Get Together <small> find players, have fun!</small>
+                    </h1>
+                </div>
+                <!-- END Page Header -->
+
+                <!-- Page Content -->
+                <div class="content content-boxed">
+                    <!-- Demo Content -->
+                    <div class="block block-rounded">
+                        <div class="block-header">
+                            <h3 class="block-title">Manifesto</h3>
+                        </div>
+                        <div class="block-content block-content-full block-content-narrow">
+                            <div class="push-30 push-30-t">
+                                <p>Conseguir encontrar um horário em comum para sair com os amigos é a tarefa mais difícil encontrada pelo jovem adulto atual. Os momentos de prazer obtidos através de sessões de jogatina estão cada vez mais raros. Neste cenário, decidimos fazer do problema, uma solução: juntamos pessoas com mesmos que querem jogar e têm os mesmos horários livres. </p>
+                            	<p>de nullam diam velit potenti consectetur, vehicula accumsan risus lectus tortor etiam facilisis tempus sapien tortor, mi vestibulum taciti dapibus viverra ac justo vivamus erat phasellus turpis nisi class praesent duis ligula, vel ornare faucibus potenti nibh turpis, at id semper nunc dui blandit. Enim et nec habitasse ultricies id tortor curabitur, consectetur eu inceptos ante conubia tempor platea odio, sed sem integer lacinia cras non risus euismod turpis platea erat ultrices iaculis rutrum taciti, fusce lobortis adipiscing dapibus habitant sodales gravida pulvinar, elementum mi tempus ut commodo congue ipsum justo nec dui cursus scelerisque elementum volutpat tellus nulla laoreet taciti, nibh suspendisse primis arcu integer vulputate etiam ligula lobortis nunc, interdum commodo libero aliquam suscipit phasellus sollicitudin arcu varius venenatis erat ornare tempor nullam donec vitae etiam tellus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Demo Content -->
+                      <!-- Mega Form -->
+                    <h2 class="content-heading">Ficou interessado? Inscreva-se abaixo e entraremos em contato com mais informações</h2>
+                    <div class="block block-bordered">
+                        <div class="block-content">
+                            <form class="form-horizontal push-10-t push-10" action="/home" method="post" onsubmit="return false;">
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <label for="mega-firstname">Nome</label>
+                                                <input class="form-control input-lg" type="text" id="mega-firstname" name="mega-firstname" placeholder="Nome">
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <label for="mega-lastname">Sobrenome</label>
+                                                <input class="form-control input-lg" type="text" id="mega-lastname" name="mega-lastname" placeholder="Sobrenome">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <label for="mega-email">Email</label>
+                                                <input class="form-control input-lg" type="text" id="mega-email" name="mega-email" placeholder="email@gmail.com">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <button class="btn btn-warning" type="submit"><i class="fa fa-check push-5-r"></i> Enviar</button>
+                                    </div>
+                                </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <!-- END Mega Form -->
+                </div>
+                <!-- END Page Content -->
+            
+        {% endblock %}
