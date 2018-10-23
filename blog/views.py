@@ -14,3 +14,6 @@ def tabuleiro(request):
 
 def videogame(request):
 	return render(request, 'blog/videogame.html')
+
+def obrigada(request):
+	return render(request, 'blog/obrigada.html')
