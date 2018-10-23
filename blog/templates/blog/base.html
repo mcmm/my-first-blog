@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 9]>         <html class="ie9 no-focus"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-focus"> <!--<![endif]-->
-{% block head %}    
+
     <head>
         <meta charset="utf-8">
 
@@ -54,12 +54,13 @@
 
           gtag('config', 'AW-795974731');
         </script>
-
+        {% block head %}    
+        {% endblock %}
         <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
         <!-- <link rel="stylesheet" id="css-theme" href="static/css/themes/flat.min.css"> -->
         <!-- END Stylesheets -->
     </head>
-   {% endblock %}
+   
     <body>
         <!-- Page Container -->
         <!--
