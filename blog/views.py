@@ -17,3 +17,6 @@ def videogame(request):
 
 def obrigada(request):
 	return render(request, 'blog/obrigada.html')
+
+def google(request):
+	return render(request, 'blog/google3d8ceef29a3d0cf1.html')
